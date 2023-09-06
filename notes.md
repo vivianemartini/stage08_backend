@@ -27,3 +27,10 @@
         10 -> valor
 
 A diferença entre eles é que no route params os valores são obrigatórios
+
+- Recurso a biblioteca Nodemon. Com ele, não precisaremos ficar reiniciando o nosso servidor manualmente sempre que houver uma alteração.
+
+- [Insomnia](https://insomnia.rest/)
+
+- Body Params
+    Quando usa o POST podemos enviar um cadastro através d corpo da requisição
