@@ -34,3 +34,9 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
 - Body Params
     Quando usa o POST podemos enviar um cadastro através d corpo da requisição
+
+- Controllers
+    Camada - parte resposavel - por processar as requisições da aplicação, onde vamos ter as regras de negócio
+
+- Servidor
+    ponto de entrada da requisição

@@ -15,12 +15,13 @@ app.get('/users', (request, response) => {
 })
  */
 
-const usersRoutes = Router()
-//POST
-usersRoutes.post('/', (request, response) => {
-    const { name, email, password } = request.body
+const UsersController = require('../controllers/UserController.js')
 
-    response.json({ name, email, password })
-})
+const usersRoutes = Router()
+
+const usersController = new UsersController()
+
+//POST
+usersRoutes.post('/', usersController.create)
 
 module.exports = usersRoutes
