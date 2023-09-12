@@ -6,5 +6,6 @@
 - Métodos de requisição
 - HTTP Status Code
 - Middleware
+- express-async-errors
 
 - [Insomnia](https://insomnia.rest/)

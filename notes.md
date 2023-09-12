@@ -57,7 +57,7 @@ A diferença entre eles é que no route params os valores são obrigatórios
     
     4xx - erro do cliente
         ex. 400 bad request
-        401 não autorizado
+        401 not authorized
         404 not found
 
     5xx - erro no servidor - o servidor falhou ao concluir a solicitação
