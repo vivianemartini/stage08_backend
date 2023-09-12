@@ -4,5 +4,6 @@
 - Aulas sobre Node.js
 - Express
 - Métodos de requisição
+- HTTP Status Code
 
 - [Insomnia](https://insomnia.rest/)

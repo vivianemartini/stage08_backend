@@ -40,3 +40,25 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
 - Servidor
     ponto de entrada da requisição
+
+- HTTP Status Code
+    Adiciona uma numeração na resposta que representa um estado
+
+    1xx - informativo - a solicitação foi aceita ou o processamento continua em andamento
+        ex. 102 processando
+
+    2xx - sucesso
+        ex. 200 requisição bem sucedida
+        201 criado - geralmente utilizado para o POST após uma inserção
+
+    3xx - redirecionamento
+        ex. 301 movido permanentemente
+        302 movido
+    
+    4xx - erro do cliente
+        ex. 400 bad request
+        401 não autorizado
+        404 not found
+
+    5xx - erro no servidor - o servidor falhou ao concluir a solicitação
+        ex. 500 erro interno
