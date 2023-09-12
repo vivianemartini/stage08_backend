@@ -62,3 +62,12 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
     5xx - erro no servidor - o servidor falhou ao concluir a solicitação
         ex. 500 erro interno
+
+- `Middleware`é uma função que consegue interceptar a requisição
+    - tem acesso ao objeto de solicitação (requisição), o objeto de resposta (resposta), e a próxima função de middleware no ciclo solicitação-resposta do aplicativo.
+    - A próxima função de middleware é comumente denotada por uma variável chamada `next`
+    - Podem:
+        - Executar qualquer código
+        - Fazer mudanças nos objetos de solicitação e resposta
+        - Encerrar o ciclo de solicitação-resposta
+        - Chamar o póximo middleware na pilha

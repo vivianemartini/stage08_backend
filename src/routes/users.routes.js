@@ -19,6 +19,15 @@ const UsersController = require('../controllers/UserController.js')
 
 const usersRoutes = Router()
 
+//middleware
+//acessa o request response e o next para chamar o destino
+function myMiddleware (request, response, next){
+    console.log('voce passou pelo middleware')
+    console.log(request.body)
+
+    next()
+}
+
 const usersController = new UsersController()
 
 //POST
