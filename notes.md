@@ -107,3 +107,12 @@ A diferença entre eles é que no route params os valores são obrigatórios
     ferramenta para visualizar o que esta dentro do banco
 
     - ferramenta `beekeper`
+
+    ![databse](./assets/database.png)
+
+- SQL - Strcuture Query Language, ou Linguagem de Consulta Estruturada
+    é a linguagem padrão para o vanco de dados relacionais
+
+    grupos de comando: 
+    - DDL (Data Definition Language) - INSERT, SELECT, UPDATE,DELETE, CREATE, DROP, ALTER
+
