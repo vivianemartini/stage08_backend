@@ -13,3 +13,5 @@
 - SQLite
 - SGBD
 - Beekeper Studio
+- SQL
+- DDL (Data Definition Language)
