@@ -76,7 +76,7 @@ A diferença entre eles é que no route params os valores são obrigatórios
     são as suas propriedades/estruturas como: Tabela, linha, coluna, tipo de dado
 
     id - int (tipo de dado)
-    name - varchar (txto)
+    name - varchar (texto)
     o ? significa que é opcional
 
     ![Tabelas](tabelas.png)
@@ -100,3 +100,10 @@ A diferença entre eles é que no route params os valores são obrigatórios
     ![Estrutura do Banco de Dados](estrutura-bd.png)
 
     id  - garante um identificador unico
+
+- Banco SQLite
+
+- SGBD - Sistema Gerenciador de Banco de Dados
+    ferramenta para visualizar o que esta dentro do banco
+
+    - ferramenta `beekeper`

@@ -10,3 +10,6 @@
 - Middleware
 - express-async-errors
 - Banco de Dados
+- SQLite
+- SGBD
+- Beekeper Studio
