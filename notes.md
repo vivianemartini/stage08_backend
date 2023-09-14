@@ -71,3 +71,39 @@ A diferença entre eles é que no route params os valores são obrigatórios
         - Fazer mudanças nos objetos de solicitação e resposta
         - Encerrar o ciclo de solicitação-resposta
         - Chamar o póximo middleware na pilha
+
+- Banco de Dados
+    são as suas propriedades/estruturas como: Tabela, linha, coluna, tipo de dado
+
+    id - int (tipo de dado)
+    name - varchar (texto)
+    o ? significa que é opcional
+
+    ![Tabelas](tabelas.png)
+
+    ![Tabela exemplo](tableex.png)
+
+ - Banco de dados `Relacional`
+
+    ![banco de dados relacional](relacional.png)
+
+    o simbolo de chave é chamdo de `chave primaria` resgistra como unico dentro da tabela, não se repete
+
+    cada usurio tem seu proprio id
+
+    `foreign key` vem de outra tabela, ela é uma chave "visitante"
+
+    `cardinalidade` - qual a frequencia que uma tabela se relaciona com outra
+
+- Estrutura do Banco de Dados
+
+    ![Estrutura do Banco de Dados](estrutura-bd.png)
+
+    id  - garante um identificador unico
+
+- Banco SQLite
+
+- SGBD - Sistema Gerenciador de Banco de Dados
+    ferramenta para visualizar o que esta dentro do banco
+
+    - ferramenta `beekeper`

@@ -1,11 +1,15 @@
-# Stage 8 RocketSeat
+# Stage 8 Rocketseat 🚀
 
-- Aulas sobre backend
+# Backend ⚙️
+
 - Aulas sobre Node.js
 - Express
 - Métodos de requisição
+- [Insomnia](https://insomnia.rest/)
 - HTTP Status Code
 - Middleware
 - express-async-errors
-
-- [Insomnia](https://insomnia.rest/)
+- Banco de Dados
+- SQLite
+- SGBD
+- Beekeper Studio
