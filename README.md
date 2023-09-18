@@ -17,3 +17,5 @@
 - DDL (Data Definition Language)
 - DML - CRUD
 - Criptografia - lib bcryptjs
+- SQL Query Builder
+    - Knex.js
