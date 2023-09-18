@@ -1,6 +1,6 @@
 # Stage 8 Rocketseat 🚀
 
-# Backend ⚙️
+# Back-end ⚙️
 
 - Aulas sobre Node.js
 - Express
