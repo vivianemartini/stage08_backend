@@ -137,3 +137,10 @@ A diferença entre eles é que no route params os valores são obrigatórios
     Permite que você construa instruções SQL independente do banco de dados utilizado
 
     Se usa o query builder e ele vai gerar o código para o banco de dados escolhido, automatizando o processo
+
+- Migrations - é uma forma de versionar a base de dados
+    Migrations trabalha na manipulação da base de dados: criando, alterando ou removendo.
+
+    Métodos de uma migrations
+    `Up` - método responsável por criar ou altear algo no bd
+    `Down` - responsável pelo rollback, ou seja, desfazer as alterações realizadas pela migration
