@@ -16,3 +16,4 @@
 - SQL
 - DDL (Data Definition Language)
 - DML - CRUD
+- Criptografia - lib bcryptjs
