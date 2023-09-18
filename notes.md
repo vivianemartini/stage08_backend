@@ -79,13 +79,13 @@ A diferença entre eles é que no route params os valores são obrigatórios
     name - varchar (texto)
     o ? significa que é opcional
 
-    ![Tabelas](tabelas.png)
+    ![Tabelas](./assets/tabelas.png)
 
-    ![Tabela exemplo](tableex.png)
+    ![Tabela exemplo](./assets/tableex.png)
 
  - Banco de dados `Relacional`
 
-    ![banco de dados relacional](relacional.png)
+    ![banco de dados relacional](./assets/relacional.png)
 
     o simbolo de chave é chamdo de `chave primaria` resgistra como unico dentro da tabela, não se repete
 
@@ -97,7 +97,7 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
 - Estrutura do Banco de Dados
 
-    ![Estrutura do Banco de Dados](estrutura-bd.png)
+    ![Estrutura do Banco de Dados](./assets/estrutura-bd.png)
 
     id  - garante um identificador unico
 
@@ -116,3 +116,18 @@ A diferença entre eles é que no route params os valores são obrigatórios
     grupos de comando: 
     - DDL (Data Definition Language) - INSERT, SELECT, UPDATE,DELETE, CREATE, DROP, ALTER
 
+    ALTER - alterar o nome das tabelas, adicionar e deletar colunas do banco de dados.
+    ![Alt text](./assets/alter.png)
+
+    Comandos `DML - Data Manipulation Language`
+
+    C - Create -> INSERT (comando sql)
+    R - Read -> SELECT
+    U - Update - UPDATE
+    D - Delete -> DELETE
+
+    Qualquer aplicação tem essas operações
+
+    ![DML](./assets/dml.png)
+
+- Migrations

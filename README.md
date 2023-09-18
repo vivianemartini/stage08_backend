@@ -15,3 +15,4 @@
 - Beekeper Studio
 - SQL
 - DDL (Data Definition Language)
+- DML - CRUD
