@@ -19,3 +19,4 @@
 - Criptografia - lib bcryptjs
 - SQL Query Builder
     - Knex.js
+- NPX
