@@ -132,7 +132,7 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
 - Migrations
 
-- SQL Query Builder
+- `SQL Query Builder`
     Um construtor de consulta
     Permite que você construa instruções SQL independente do banco de dados utilizado
 
@@ -144,3 +144,27 @@ A diferença entre eles é que no route params os valores são obrigatórios
     Métodos de uma migrations
     `Up` - método responsável por criar ou altear algo no bd
     `Down` - responsável pelo rollback, ou seja, desfazer as alterações realizadas pela migration
+
+- NPX
+    `NPM` - node package manager é o gerenciados de pacotes padrão para node.js
+    Os pacoes e módulos necessários no projeto node são instalados usando npm
+    E também utilizamos o npm para executar scripts e bibliotecas instaladas
+
+    o `npx` significa Node Package Execute e vem com o npm acima da versão 5.2
+    É um executados de pacotes npm que pode executar quaquer pacote que você quiser
+    do registro npm sem sequer instalar esse pacote
+
+    Resumindo:
+    NPM - ferramenta paa instalar pacotes
+    NPX - ferramenta para executar pacotes
+
+- Primary key e Foreign key
+  - chave primária possui um id único com ela na tabela, já a chave estrangeira faz a referência desse id da chave primária em outras tabelas
+
+  ![chaves](./assets/keys.png)
+
+- Cardinalidade
+    a frequência que uma tabela se relaciona com a outra. Para isso, vamos visualizar a estrutura do nosso banco de dados.
+
+- Migrations para Link e Tag
+    mais duas migrations em nosso projeto que proverá as tabelas link e tags em nosso banco de dados.
