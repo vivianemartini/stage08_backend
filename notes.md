@@ -168,3 +168,19 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
 - Migrations para Link e Tag
     mais duas migrations em nosso projeto que proverá as tabelas link e tags em nosso banco de dados.
+
+- operador `like` para buscar valores que contenham partes de uma palavra.
+![like](./assets/like.png)
+
+- o filtro `WhereIn` para filtrar realmente o que é necessário em nossa busca no banco de dados.
+![whereIn](./assets/whereIn.png)
+
+- Conceito de Inner Join
+    Inner Joinserve para unir duas tabelas e trazer um resultado em conjunto desses dados.
+
+![innerJoin](./assets/innerJoin.png)
+
+![unindo](./assets/unindo.png)
+
+O que vamos precisar:
+![exemplo](./assets/innerJoinExample.png)
