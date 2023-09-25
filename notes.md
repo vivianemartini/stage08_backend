@@ -191,3 +191,8 @@ O que vamos precisar:
 
 
 ![filter](./assets/filter.png)
+
+ - para rodar:
+
+npm run dev (server)
+npm run migrate (migrations)
