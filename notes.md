@@ -184,3 +184,10 @@ A diferença entre eles é que no route params os valores são obrigatórios
 
 O que vamos precisar:
 ![exemplo](./assets/innerJoinExample.png)
+
+- função map e filter utilizando a ferramenta PlayCode.
+
+![map](./assets/map.png)
+
+
+![filter](./assets/filter.png)
